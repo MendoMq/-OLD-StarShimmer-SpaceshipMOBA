@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4141717024991990684}
   - component: {fileID: 8350570374202496166}
   - component: {fileID: 8178982792947097883}
+  - component: {fileID: -308684362920420622}
   m_Layer: 0
   m_Name: Asteroid Big (2)
   m_TagString: Untagged
@@ -63,6 +64,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-308684362920420622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4836394473714211419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f738992881cd2ad4a89481936e8ffc35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 15
+  health: 15
+  deathEffectPrefab: {fileID: 0}
 --- !u!1001 &1734011590250394732
 PrefabInstance:
   m_ObjectHideFlags: 0

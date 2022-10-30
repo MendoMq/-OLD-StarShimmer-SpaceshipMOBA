@@ -25,9 +25,11 @@ public class ShipShoot : MonoBehaviour
         if(Input.GetMouseButtonDown(0)){
             ShootSingle();
         }
+        /*
         if(Input.GetMouseButtonDown(1)){
             ShootArea();
         }
+        */
     }
 
     
